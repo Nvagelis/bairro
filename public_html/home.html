@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bairro Food and Drink Culture</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" media="all" href="css/style.min.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="bower_components/jquery/dist/jquery.js"><\/script>');</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+        <script src="js/home.min.js"></script>
+        <script src="js/main.min.js"></script>
+        <script src="js/tweenMaxSlider.js"></script>
+        <!--<script src="js/slider.js"></script>-->
+    </head>
+    <body>
+        <div class="loader-site">
+            <div class="block block-1"></div>
+            <div class="block block-2"></div>
+        </div>
+        <div class="loader-home">
+            <div class="loader-bar-cont"><div class="loader-bar"></div></div>
+        </div>
+        <span class="header-space" data-color="trans"></span>
+        <header class="header">
+            <div class="logo">
+                <a href="home.html" rel="home" title="home page"><img class="logo-img" src="images/logo/logo-small.png" alt="logo"></a>
+                <h1>Bairro food and Drink Culture</h1>
+            </div>
+            <div class="hd-navigation clearfix">
+                <ul>
+                    <li><a href="food.html" title="food">food</a></li>
+                    <li><a href="drinks.html" title="drinks">drinks</a></li>
+                    <li><a href="events.html" title="events">events</a></li>
+                </ul>
+                <div class="menu-button close">
+                    <div class="menu-pos">
+                        <div class="button"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav class="main-navigation" role="navigation">
+            <h2>main navigation</h2>
+            <div class="nav-cont lf-cont">
+                <ul>
+                    <li><a href="drinks.html" title="drinks"><span class="litem">Drinks</span></a>
+                        <span class="line mv-l"></span>
+                    </li>
+                    <li><a href="food.html" title="food"><span class="litem">food</span></a>
+                        <span class="line mv-l"></span>
+                    </li>
+                    <li><a href="coffee.html" title="coffee"><span class="litem">coffee</span></a>
+                        <span class="line mv-l"></span>
+                    </li>
+                    <li><a href="events.html" title="events"><span class="litem">events</span></a>
+                        <span class="line mv-l"></span>
+                    </li>
+                    <li><a href="menu.html" title="catalog"><span class="litem">catalog</span></a>
+                        <span class="line mv-l"></span>
+                    </li>
+                    <li><a href="albums.html" title="albums"><span class="litem">albums</span></a>
+                        <span class="line mv-l"></span>
+                    </li>
+                    <li><a href="contact.html" title="contact"><span class="litem">contact</span></a>
+                        <span class="line mv-l"></span>
+                    </li>
+                </ul>
+            <footer class="nav-footer">
+                <div class="gredits">developed by <a href="#" title="">vn</a></div>
+                <div class="social"><a href="#" title="facebook">facebook</a> - <a href="#" title="facebook">instagram</a></div>
+            </footer>
+            </div>
+            <div class="nav-cont rg-cont">
+                <div class="data-holder">
+                    <div class="data-nav">All day coffee-bar-restaurant στην καρδία του Ζωγράφου, πλατεία Γαρδένιας. Από νωρίς το πρωί λοιπόν για να απολαύσετε το καφέ ή το γεύμα σας, μέχρι αργά το βράδυ με ιδιαίτερα κοκτέιλ, πολύ διασκέδαση και δυνατά events.</div>
+                    <div class="sub-data">"your place for food & drink"</div>
+                </div>
+            </div>	
+        </nav>
+        <section class="slider">
+            <div class="slider-container">   <!-- padding left-->
+                <div class="overlay"></div>  <!-- mask slide-image-->
+                <div class="slider-wrap">    
+                    <div class="slide-holder">       <!-- first slide -->
+                        <div class="slide-image sl-image-1"></div>    <!-- background image -->
+                        <div class="slide-data data1">
+                            <div class="first-line"><div class="text">Island.gr</div></div>   <!-- text for title-wrap -->
+                            <div class="second-line"><div class="text">summer cocktail</div></div>
+                            <div class="title-text"><div class="text">Mastiha, Mandarin, Kumquat, Fresh lemon juice, Sugar, Orange bitter, Lemon bitter, Basil leaves</div></div>
+                        </div>
+                    </div>
+                    <div class="slide-holder">      <!-- second slide -->
+                        <div class="slide-image sl-image-2"></div>    <!-- background image -->
+                        <div class="slide-data data2">
+                            <div class="first-line"><div class="text">Intence</div></div>   <!-- text for title-wrap -->
+                            <div class="second-line"><div class="text">fruit cocktail</div></div>
+                            <div class="title-text"><div class="text">Tequila reposado Ginger Chilly Passion fruit Fresh lime juice Aromatic bitter Orange bitter</div></div>
+                        </div>
+                    </div>
+                    <div class="slide-holder">      <!-- third slide -->
+                        <div class="slide-image sl-image-3"></div>    <!-- background image -->
+                        <div class="slide-data data3">
+                            <div class="first-line"><div class="text">Royal taste</div></div>   <!-- text for title-wrap -->
+                            <div class="second-line"><div class="text">all time cocktail</div></div>
+                            <div class="title-text"><div class="text">Premium Gin Aperol Elderflower liquer Fresh lemon juice Top up with Prosseco</div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-app">
+                <div class="controls">
+                    <div class="arrow-box">
+                        <a class="prev" href="#" title="prev"><i class="fa fa-long-arrow-left"></i></a>
+                    </div>
+                    <div class="line-sep"></div>
+                    <div class="arrow-box">
+                        <a class="next" href="#" title="next"><i class="fa fa-long-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="loader">
+                    <div class="loader-line"></div>  
+                </div>
+                <div class="title-container">
+                    <div class="title-wrap">
+                        <div class="first-line"><div>Royal taste</div></div>
+                        <div class="second-line"><div>all time cocktail</div></div>
+                    </div>
+                    <div class="title-text">Mastiha, Mandarin, Kumquat, Fresh lemon juice, Sugar, Orange bitter, Lemon bitter, Basil leaves</div>
+                </div>
+                <div class="btn-readmore">
+                    <a href="drink.html">
+                        <div class="readmore-data">
+                            <span class="pointer"></span>
+                            <span class="pointer"></span>
+                            <span class="pointer"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="slide-footer">
+                <div class="btn-scroll"><span><i class="fa fa-angle-double-down"></i></span><p>Scroll</p></div>
+            </div>
+        </section>
+        <section class="content clearfix">
+            <div class="matrix-box">
+                <div class="matrix-box-container">
+                    <div class="moving-container">
+                        <img class="sizing" src="images/staff/box1space.gif" />
+                        <div class="image-container">
+                            <div class="image-content"></div>
+                        </div>
+                        <a href="drink.html" title="drinks">
+                            <div class="title-up">
+                                <span class="t-line"></span>
+                                <div class="des-title">cocktails</div>
+                            </div>
+                            <div class="title-down">                           
+                                <div class="line"></div>
+                                <div class="title">drinks</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="matrix-box">
+                <div class="matrix-box-container">
+                    <div class="moving-container">
+                        <img class="sizing" src="images/staff/box2space.gif" />
+                        <div class="image-container">
+                            <div class="image-content"></div>
+                        </div>
+                        <a href="food.html" title="food">
+                            <div class="title-up">
+                                <span class="t-line"></span>
+                                <div class="des-title">food details</div>
+                            </div>
+                            <div class="title-down">
+                                <div class="line"></div>
+                                <div class="title">food</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="matrix-box">
+                <div class="matrix-box-container">
+                    <div class="moving-container">
+                        <img class="sizing" src="images/staff/box3space.gif" />
+                        <div class="image-container">
+                            <div class="image-content"></div>
+                        </div>
+                        <a href="menu.html" title="catalog">
+                            <div class="title-up">
+                                <span class="t-line"></span>
+                                <div class="des-title">catalog</div>
+                            </div>
+                            <div class="title-down">
+                                <div class="line"></div>
+                                <div class="title">menu</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="matrix-box">
+                <div class="matrix-box-container">
+                    <div class="moving-container">
+                        <img class="sizing" src="images/staff/box4space.gif" />
+                        <div class="image-container">
+                            <div class="image-content"></div>
+                        </div>
+                        <a href="events.html" title="events">
+                            <div class="title-up">
+                                <span class="t-line"></span>
+                                <div class="des-title">find out</div>
+                            </div>
+                            <div class="title-down">
+                                <div class="line"></div>
+                                <div class="title">events</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="matrix-box">
+                <div class="matrix-box-container">
+                    <div class="moving-container">
+                        <img class="sizing" src="images/staff/box5space.gif" />
+                        <div class="image-container">
+                            <div class="image-content"></div>
+                        </div>
+                        <a href="albums.html" title="photos">
+                            <div class="title-up">
+                                <span class="t-line"></span>
+                                <div class="des-title">albums</div>
+                            </div>
+                            <div class="title-down">
+                                <div class="line"></div>
+                                <div class="title">photos</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="inner-footer clearfix">
+                <div class="copyrights"><p>bairro ©</p><p>2016</p></div>
+                <div class="credits"><p>developed by</p><p class="vn">Vn</p></div>
+            </div>
+        </footer>
+    </body>
+</html>
