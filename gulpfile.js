@@ -15,7 +15,7 @@ var gulp = require('gulp'),
     sourcemaps = require('gulp-sourcemaps'),
     autoprefixer = require('gulp-autoprefixer'),
     cssmin = require('gulp-cssmin'),
-    concat = require('gulp-concat');;
+    concat = require('gulp-concat');
 
 var config = {
     sourceDir: 'source',
