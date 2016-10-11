@@ -1,10 +1,21 @@
 # bairro
-css, jquery, TwwenMax slider
 
+<br>
+<img src="https://github.com/Nvagelis/bairro/blob/master/screenshot%20.png">
+## Installing
 
+* clone repository
+* <b>start file:</b> /public-html/home.html
 
-- clone
+## Build With
 
-- bower install
+* html
+* css
+* jQuery
+* tweenMax
 
-- run home.html
+### details
+
+- tweenMax slider
+- parallax background images
+- on scroll animations
